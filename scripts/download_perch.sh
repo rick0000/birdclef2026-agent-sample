@@ -1,0 +1,2 @@
+KAGGLE_API_TOKEN=${KAGGLE_API_TOKEN} uv run kaggle datasets download rishikeshjani/perch-onnx-for-birdclef-2026 -p input/perch_v2 \
+    && unzip input/perch_v2/perch-onnx-for-birdclef-2026.zip -d input/perch_v2

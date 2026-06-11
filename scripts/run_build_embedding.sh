@@ -1,0 +1,1 @@
+python scripts/build_perch_v2_embedding_cache_tf.py --batch-size 64 --num-workers 8

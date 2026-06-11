@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp0000",
+  "description": "Baseline: Perch v2 embeddings (mean pool) + nn.Linear head",
+  "script": "experiments/exp0000/train.py",
+  "method": "perch_v2_embedding_linear",
+  "params": {
+    "embedding": "perch_v2",
+    "pooling": "mean",
+    "head": "nn.Linear",
+    "lr": 1e-3,
+    "epochs": 50,
+    "batch_size": 256,
+    "n_splits": 5
+  }
+}
